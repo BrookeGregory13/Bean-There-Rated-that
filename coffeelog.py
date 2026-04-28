@@ -9,20 +9,23 @@ def show_menu():
     print("5. Show total number of restaurant  logged")
     print("6. Clear all restaurant logs")
 
-def log_coffee():
-    name = input("Coffee name: ")
-    coffee_type = input("Coffee type (e.g., iced, latte, espresso): ")
-    location = input("Where did you buy it?: ")
+def log_restaurant():
+    name = input("Restaurant name: ")
+    food_type = input("Type of food (e.g., Italian, Mexican, Sushi): ")
+    location = input("Where is it located?: ")
     rating = input("Rate it (1–10): ")
+    
     while not rating.isdigit() or not (1 <= int(rating) <= 10):
         print("Please enter a valid number from 1 to 10.")
         rating = input("Rate it (1–10): ")
+    
     notes = input("Optional notes: ")
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
-    with open("coffee_log.txt", "a") as file:
-        file.write(f"{timestamp} | {name} | {coffee_type} | {location} | {rating} | {notes}\n")
-    print("Coffee logged!")
+    with open("restaurant_log.txt", "a") as file:
+        file.write(f"{timestamp} | {name} | {food_type} | {location} | {rating} | {notes}\n")
+    
+    print("Restaurant logged!")
 
 def view_log():
     try:
