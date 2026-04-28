@@ -1,16 +1,16 @@
-# Project-Roadmap – Bean There, Rated That
+# Project-Roadmap – Food Finder: 2 for 5 Survival Guide
 
 ## Sprint 1 Tasks
-- [x] Define project idea
-- [x] Create GitHub repo
-- [x] Add README and .gitignore
-- [x] Create basic coffeelog.py CLI
-- [x] Create and test coffee_log.txt
+- [Y] Define project idea
+- [Y] Create GitHub repo
+- [Y] Add README and .gitignore
+- [Y] Create basic resturantlog.py CLI
+- [Y] Create and test resturant_log.txt
 
 ## Sprint 2 Features
-- [x] Add timestamp to log entries
-- [x] Add coffee type input
-- [x] Add input validation for rating
+- [Y] Add timestamp to log entries
+- [Y] Add resturant type input
+- [Y] Add input validation for rating
 - [x] Format log display with headers
 - [x] Add option to clear log file
 - [x] Add comments and structure
