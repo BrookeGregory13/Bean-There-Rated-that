@@ -70,4 +70,6 @@ bean-there-rated-that/
 - [x] Show total coffees logged
 - [x] Clear log file with confirmation
 
+Changing idea from Coffee to Resturants
+Adding a location factor
 
