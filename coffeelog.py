@@ -1,13 +1,13 @@
 from datetime import datetime
 
 def show_menu():
-    print("\nBean-There-Rated-That")
-    print("1. Log a new coffee")
-    print("2. View coffee log")
+    print("\nFood-Finder-2-For-5-Survival-Guide")
+    print("1. Log a new restaurant ")
+    print("2. View restaurant  log")
     print("3. Exit")
-    print("4. View only high-rated coffees (8–10)")
-    print("5. Show total number of coffees logged")
-    print("6. Clear all coffee logs")
+    print("4. View only high-rated restaurant  (8–10)")
+    print("5. Show total number of restaurant  logged")
+    print("6. Clear all restaurant logs")
 
 def log_coffee():
     name = input("Coffee name: ")
